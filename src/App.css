@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* ----- reset ----- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  cursor: text; 
+  padding: 5px;
+  border: 2px solid #8b8b8b;
+  text-align: left;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 3px 9px;
+}
+
+input,
+button {
+  border-radius: 5px;
+  display: inline-block;
+  font-family: inherit;
+  text-align: center;
+}
+
+.app {
+  height: 100vh;
+}
+
+.app__header {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 30px 8% ;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__title {
+  font-size: 3.2rem;
+}
+
+.app__btn {
+  background-color: #555a88;
+  font-size: 1.05rem;
+  width: 20%;
+  height: 55px;
+  min-width: 100px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  gap: 5px;
+}
+
+.app__container {
+  padding: 130px 30px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 35px 50px ;
+}
